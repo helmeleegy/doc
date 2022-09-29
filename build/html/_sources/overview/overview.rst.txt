@@ -1,0 +1,7 @@
+Overview Supported APIs
+===============
+
+.. note:: 
+  | *Estimated Reading Time: 10 minutes*
+  | You can follow along this tutorial in a Jupyter notebook `here <https://github.com/modin-project/modin/tree/master/examples/quickstart.ipynb>`_. 
+
