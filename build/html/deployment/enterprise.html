@@ -183,22 +183,29 @@
 </div>
 In this guide you will:
 <ol>
+        <li>Whitelisting your IP address</li>
         <li>Sign up for Ponder Account</li>
         <li>Create Snowflake Account (if you haven’t already)</li>
         <li>Download and Run the wheel file </li>
         <li>Connect to your DB and start Pondering 🎉</li>
-</ol><h2>Step 1: Sign up for Ponder Account</h2><p>If you haven’t already, please go to <a class="reference external" href="https://ponder.io/">Ponder’s product page</a> and sign up for Ponder using your email address.</p>
-<h2>Step 2: Create Snowflake Account (if you haven’t already)</h2><p>If you have a snowflake account you can skip this step. Otherwise, you first need to create a snowflake account. Follow our <a class="reference internal" href="../resources/SnowflakeAccountCreation.html"><span class="doc">step-by-step guide</span></a> on how to create an account on Snowflake.</p>
-<h2>Step 3: Download and Run the wheel file</h2><p>First download the wheel file from <a class="reference external" href="s3://assets-ponder/ponder-lib/ponder-0.0.1-py3-none-any.whl">here</a> .</p>
+</ol><h2>Step 1: Whitelisting your IP address</h2><p>To access the Ponder Cloud service your  <code class="docutils literal notranslate"><span class="pre">IP</span> <span class="pre">address</span></code> should be whitelisted by Ponder Team. If you haven’t already, you need to share your <code class="docutils literal notranslate"><span class="pre">IP</span> <span class="pre">address</span></code> with Ponder team.</p>
+<p>Steps for sharing your <code class="docutils literal notranslate"><span class="pre">IP</span> <span class="pre">address</span></code>:</p>
+<blockquote>
+<div><p>Step 1: Go to <a class="reference external" href="https://whatismyipaddress.com/">https://whatismyipaddress.com/</a> to get your <code class="docutils literal notranslate"><span class="pre">IPv4</span></code></p>
+<p>Step 2: Email your <code class="docutils literal notranslate"><span class="pre">IP</span> <span class="pre">address</span></code> to Ponder team at <a class="reference external" href="mailto:support&#37;&#52;&#48;ponder&#46;io">support<span>&#64;</span>ponder<span>&#46;</span>io</a> to whitelist you</p>
+</div></blockquote>
+<h2>Step 2: Sign up for Ponder Account</h2><p>If you haven’t already, please go to <a class="reference external" href="https://ponder.io/">Ponder’s product page</a> and sign up for Ponder using your email address.</p>
+<h2>Step 3: Create Snowflake Account (if you haven’t already)</h2><p>If you have a snowflake account you can skip this step. Otherwise, you first need to create a snowflake account. Follow our <a class="reference internal" href="../resources/SnowflakeAccountCreation.html"><span class="doc">step-by-step guide</span></a> on how to create an account on Snowflake.</p>
+<h2>Step 4: Download and Run the wheel file</h2><p>First download the wheel file from <a class="reference external" href="s3://assets-ponder/ponder-lib/ponder-0.0.1-py3-none-any.whl">here</a> .</p>
 <p>Open the <code class="docutils literal notranslate"><span class="pre">terminal</span></code> and go to the directory where you downloaded the wheel file. You then need to pip install the wheel using the following command.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install ponder-0.0.1-py3-none-any.whl --force-reinstall <span class="o">()</span>
 </pre></div>
 </div>
-<h2>Step 4: Open ``iPython``</h2><p>Now, open a ipython terminal using the following command in your terminal</p>
+<h2>Step 5: Open ``iPython``</h2><p>Now, open a ipython terminal using the following command in your terminal</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>iPython
 </pre></div>
 </div>
-<h2>Step 5: Connect to your DB and start Pondering 🎉</h2><p>In order to connect to your Snowflake account, you need to enter Snowflake connection information and initialize the connection.</p>
+<h2>Step 6: Connect to your DB and start Pondering 🎉</h2><p>In order to connect to your Snowflake account, you need to enter Snowflake connection information and initialize the connection.</p>
 <p>Follow our <a class="reference internal" href="../resources/SnowflakeInfo.html"><span class="doc">step-by-step guide</span></a> on how to find your Snowflake connections information.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">modin.pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">ponder.snowflake</span>

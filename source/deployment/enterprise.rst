@@ -12,29 +12,44 @@ Ponder Cloud - Local Machine
 
 	In this guide you will:
 	<ol>
+		<li>Whitelisting your IP address</li>
 		<li>Sign up for Ponder Account</li>
 		<li>Create Snowflake Account (if you haven’t already)</li>
 		<li>Download and Run the wheel file </li>
 		<li>Connect to your DB and start Pondering 🎉</li>
 	</ol>
 
+
 .. raw:: html
 
-	<h2>Step 1: Sign up for Ponder Account</h2>
+	<h2>Step 1: Whitelisting your IP address</h2>
+
+To access the Ponder Cloud service your  ``IP address`` should be whitelisted by Ponder Team. If you haven’t already, you need to share your ``IP address`` with Ponder team. 
+
+Steps for sharing your ``IP address``:
+
+	Step 1: Go to https://whatismyipaddress.com/ to get your ``IPv4``
+
+	Step 2: Email your ``IP address`` to Ponder team at support@ponder.io to whitelist you
+
+
+.. raw:: html
+
+	<h2>Step 2: Sign up for Ponder Account</h2>
 
 
 If you haven’t already, please go to `Ponder's product page <https://ponder.io/>`_ and sign up for Ponder using your email address.
 
 .. raw:: html
 
-	<h2>Step 2: Create Snowflake Account (if you haven’t already)</h2>
+	<h2>Step 3: Create Snowflake Account (if you haven’t already)</h2>
 
 
 If you have a snowflake account you can skip this step. Otherwise, you first need to create a snowflake account. Follow our :doc:`step-by-step guide</resources/SnowflakeAccountCreation>` on how to create an account on Snowflake. 
 
 .. raw:: html
 
-	<h2>Step 3: Download and Run the wheel file</h2>
+	<h2>Step 4: Download and Run the wheel file</h2>
 
 First download the wheel file from `here <s3://assets-ponder/ponder-lib/ponder-0.0.1-py3-none-any.whl>`_ .
 
@@ -47,7 +62,7 @@ Open the ``terminal`` and go to the directory where you downloaded the wheel fil
 
 .. raw:: html
 
-	<h2>Step 4: Open ``iPython``</h2>
+	<h2>Step 5: Open ``iPython``</h2>
 Now, open a ipython terminal using the following command in your terminal
 
 
@@ -58,7 +73,7 @@ Now, open a ipython terminal using the following command in your terminal
 
 .. raw:: html
 
-	<h2>Step 5: Connect to your DB and start Pondering 🎉</h2>
+	<h2>Step 6: Connect to your DB and start Pondering 🎉</h2>
 
 
 In order to connect to your Snowflake account, you need to enter Snowflake connection information and initialize the connection. 
