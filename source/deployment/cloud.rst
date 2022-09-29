@@ -101,15 +101,15 @@ After connecting to your database, you can read a table that exists on your Snow
 	df
 
 
-Or you could upload the CSV file to your Snowflake account and read using following commands.
+.. Or you could upload the CSV file to your Snowflake account and read using following commands.
 
-.. code-block:: python
+.. .. code-block:: python
 
-	t = ponder.utils.core.Teleporter()
-	t.depulso("test.csv")
+.. 	t = ponder.utils.core.Teleporter()
+.. 	t.depulso("test.csv")
 
-.. code-block:: python
+.. .. code-block:: python
 
-	df = pd.read_csv(t.teleported_path("test.csv"), header=0)
-	df.head()
+.. 	df = pd.read_csv(t.teleported_path("test.csv"), header=0)
+.. 	df.head()
 .. _here: https://github.com/modin-project/modin/pulls

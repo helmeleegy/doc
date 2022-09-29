@@ -1,9 +1,9 @@
 Reading existing tables on Snowflake
 ===============
 
-  .. toctree::
-    :hidden:
-    :maxdepth: 100
+.. toctree::
+	:hidden:
+	:maxdepth: 100
 
 
 In this example, we show you how to read an exsiting table that on your Snowflake database using ``read_sql()`` method. Assume you have previously created a table called ``TEST`` in your database. 
