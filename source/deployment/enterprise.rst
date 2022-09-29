@@ -42,7 +42,7 @@ Open the ``terminal`` and go to the directory where you downloaded the wheel fil
 
 .. code-block:: bash
 
-	pip install ponder-0.0.1-py3-none-any.whl --forece-reinstall ()
+	pip install ponder-0.0.1-py3-none-any.whl --force-reinstall ()
 
 
 .. raw:: html
@@ -54,13 +54,6 @@ Now, open a ipython terminal using the following command in your terminal
 .. code-block:: bash
 
 	iPython
-
-
-Finally, run the following code in your iPython terminal
-
-.. code-block:: bash
-
-	from ponder.core.utils import Teleporter
 
 
 .. raw:: html
