@@ -14,11 +14,11 @@ Usage
 
 .. dropdown:: How can I use Ponder?
 
-	One way to use Ponder is to use Ponder on Cloud service that host your dataframes end to end. In our hosted service, you directly interact with our managed Ponder Studio to get access to database pushdown capabilities.
+	One way to use Ponder is to use Ponder on Cloud service that host your dataframes end to end. In our hosted service, you directly interact with our managed service to get access to database pushdown capabilities.
 
 	Another way to use our offering is to use Ponder Enterpise that deploys in your VPC and gives you the flexibility of executing your pandas code using Compute Engine, Dataproc, Big Query, and more.
 
-	Read more about Ponder and how teams can leverage Ponder’s technology [here](https://www.notion.so/Introduction-to-Ponder-a4fd88450db94b79824905fdd1cb60style:"padding-left: 1.5em;"
+	Read more about Ponder and how teams can leverage Ponder’s technology :doc:`here </index>`
 
 
 .. dropdown:: Does Ponder support Jupyter Notebooks?
