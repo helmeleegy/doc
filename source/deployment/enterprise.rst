@@ -95,25 +95,6 @@ Follow our :doc:`step-by-step guide</resources/SnowflakeInfo>` on how to find yo
 	ponder.snowflake.init(snowflake_con, timeout=1200)
 
 
-After connecting to your database, you can read a table that exists on your Snowflake account using following command. 
-
-.. code-block:: python
-
-	df= pd.read_sql("TABLE NAME", "auto")
-	df
-
-
-Or you could upload the CSV file to your Snowflake account and read using following commands.
-
-.. code-block:: python
-
-	t = ponder.utils.core.Teleporter()
-	t.depulso("test.csv")
-
-.. code-block:: python
-
-	df = pd.read_csv(t.teleported_path("test.csv"), header=0)
-	df.head()
-
+Here are more examples on how to :doc:`upload files to your Snowflake account </examples/example1>` or :doc:`reading existing tables on Snowflake </examples/example2>`.
 
 .. _here: https://github.com/modin-project/modin/pulls

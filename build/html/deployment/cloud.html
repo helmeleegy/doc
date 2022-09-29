@@ -211,20 +211,7 @@ In this guide you will:
 <span class="n">ponder</span><span class="o">.</span><span class="n">snowflake</span><span class="o">.</span><span class="n">init</span><span class="p">(</span><span class="n">snowflake_con</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>After connecting to your database, you can read a table that exists on your Snowflake account using following command.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql</span><span class="p">(</span><span class="s2">&quot;TABLE NAME&quot;</span><span class="p">,</span> <span class="s2">&quot;auto&quot;</span><span class="p">)</span>
-<span class="n">df</span>
-</pre></div>
-</div>
-<p>Or you could upload the CSV file to your Snowflake account and read using following commands.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="n">ponder</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">core</span><span class="o">.</span><span class="n">Teleporter</span><span class="p">()</span>
-<span class="n">t</span><span class="o">.</span><span class="n">depulso</span><span class="p">(</span><span class="s2">&quot;test.csv&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">teleported_path</span><span class="p">(</span><span class="s2">&quot;test.csv&quot;</span><span class="p">),</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-</div>
+<p>Here are more examples on how to <a class="reference internal" href="../examples/example1.html"><span class="doc">upload files to your Snowflake account</span></a> or <a class="reference internal" href="../examples/example2.html"><span class="doc">reading existing tables on Snowflake</span></a>.</p>
 </div>
 
 
