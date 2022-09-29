@@ -27,7 +27,7 @@
 	<h2>Step 1: Sign up for Ponder Account</h2>
 
 
-If you haven’t already, please go to `Ponder's product page <https://ponder.io/>`_ and sign up for Ponder using your email address.
+If you haven’t already, please go to `Ponder's product page <https://tryponderapp.tk/>`_ and sign up for Ponder using your email address.
 
 .. raw:: html
 
