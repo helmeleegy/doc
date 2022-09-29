@@ -51,16 +51,6 @@ After signing in to your account, go to the "Workspace" tab and press "Launch Po
 You can either open an existing template notebook called ``example_db_pushdown.ipynb`` that exists on your Jupyter directory or open a new notebook. ``example_db_pushdown.ipynb`` notebook already contains an template code snippest for connecting to your Snowflake database. 
 
 
-You need to set the notebook kernel to ``pdkernel``. This is under ``Kernel`` > ``Change kernel`` tab at the top of your notebook page. See figure below for more details.
-
-.. image:: /img/UI/uiScreen.png
-	:width: 800px
-	:alt: snowflake
-	:align: center
-
-
-
-
 .. raw:: html
 
 	<h2>Step 5: Connect to your DB and start Pondering 🎉</h2>
